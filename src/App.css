@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+
+.message.has-replies {
+  border: 1px solid #7E00EA;
+  border-radius: 5px;
+  left: 5px;
+  position: relative;
+  background-color: #F1E3FD;
+}
+
+.text {
+  border: 1px solid #000099;
+  background-color: #F0F0FF;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px;
+  text-align: left;
+}
+
+.username {
+  font-weight: 900;
+}
+
+.fileUpload {
+  border: 1px solid #009900;
+  background-color: #F0FFF0;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px;
+  text-align: left;
+}
+
+.threadBroadcast {
+  border: 1px solid #000099;
+  background-color: #FFFFF0;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px;
+  text-align: left;
+}
+
+.channelLeave {
+  border: 1px solid #990000;
+  background-color: #FFF0F0;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px;
+  text-align: left;
+}
+
+.reply {
+  margin-left: 15px;
+}
+
+.timestamp {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.reactions {
+  border-top: 1px solid grey;
+  padding-top: 3px;
+  margin-top: 4px;
+}
+
+span.react {
+  padding-right: 5px;
+}
